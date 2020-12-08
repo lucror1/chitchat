@@ -36,7 +36,6 @@ public class Client {
 
     public static void main(String[] args) throws Exception {
         // Assigns the default server location
-        Client.username = "pmwarner";
         Client.host = "localhost";
         Client.port = 8080;
         Client.shouldRun = true;
@@ -45,6 +44,10 @@ public class Client {
         Client.mostRecentId = -1;
 
         // If arguments are provided, change the default location
+        if (args.length == 0) {
+            System.out.println("Usage: ./runClient <username> [host] [port]");
+            System.exit(-1);
+        }
         if(args.length == 1) {
             Client.username = args[0];
         }
