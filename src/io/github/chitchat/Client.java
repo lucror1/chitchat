@@ -199,7 +199,7 @@ class NetworkMessageHandler implements Runnable {
             lastWriteFuture = channel.writeAndFlush(msg);
 
             try{
-                Thread.sleep(5000);
+                Thread.sleep(1000);
             }
             catch (InterruptedException ex) {
                 ex.printStackTrace();
