@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# chitchat
 
-You can use the [editor on GitHub](https://github.com/pmwarner/chitchat/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+chitchat is a simple text-based chat application that utilizes the netty.io libarary
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Mac/Linux
+### Installation
+Use [git](https://git-scm.com/) to install chitchat.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+git clone https://github.com/pmwarner/chitchat.git
+cd chitchat
+bash compile
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Server Usage
 
-### Jekyll Themes
+```bash
+bash runServer
+```
+To run the server on a different port (default 8080), use the following instead:
+```bash
+bash runServer <port>
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pmwarner/chitchat/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Client Usage
+```bash
+bash runClient <username> [<host> <port>]
+```
+Host defaults to `localhost` and port defaults to `8080`.
 
-### Support or Contact
+## Windows
+Instructions will (probably) be added at a later date. Until then, either figure it out yourself or use the Windows Subsystem for Linux.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## License
+[Apache 2.0 License](https://github.com/pmwarner/chitchat/blob/main/LICENSE)
