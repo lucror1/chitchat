@@ -135,6 +135,9 @@ class UserMessageHandler implements Runnable {
                         else if (msg.length() != 0){
                             // Send the message over the network
                             sendMessage(msg);
+                            Client.displayMessages();
+                            // Mimic the client properly displaying the message
+                            System.out.println(String.format("[%s] %s", Client.username, msg));
                         }
                     }
                 }
