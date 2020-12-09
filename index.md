@@ -24,7 +24,7 @@ bash runServer <port>
 
 ### Client Usage
 ```bash
-bash runClient <username> \[<host> <port>]
+bash runClient <username> [<host> <port>]
 ```
 Host defaults to `localhost` and port defaults to `8080`.
 
