@@ -32,4 +32,4 @@ Host defaults to `localhost` and port defaults to `8080`.
 Instructions will (probably) be added at a later date. Until then, either figure it out yourself or use the Windows Subsystem for Linux.
 
 ## License
-[Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.txt)
+[Apache 2.0 License](https://github.com/pmwarner/chitchat/blob/main/LICENSE)
