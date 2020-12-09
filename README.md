@@ -27,6 +27,7 @@ bash runServer <port>
 bash runClient <username> [<host> <port>]
 ```
 Host defaults to `localhost` and port defaults to `8080`.
+To send messages, type them and hit enter.
 
 ## Windows
 Instructions will (probably) be added at a later date. Until then, either figure it out yourself or use the Windows Subsystem for Linux.
