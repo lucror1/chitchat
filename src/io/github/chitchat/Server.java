@@ -1,5 +1,5 @@
-// TODO: implement packet defragging, as implemented here:
-// https://netty.io/wiki/user-guide-for-4.x.html#wiki-h4-13
+// Based on io.netty.example.discard.DiscardServer
+// https://github.com/netty/netty/blob/4.1/example/src/main/java/io/netty/example/discard/DiscardServer.java
 package io.github.chitchat;
 
 import io.netty.bootstrap.ServerBootstrap;

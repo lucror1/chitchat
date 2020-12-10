@@ -1,3 +1,5 @@
+// Based on io.netty.example.telnet.TelnetClient
+// https://github.com/netty/netty/blob/4.1/example/src/main/java/io/netty/example/telnet/TelnetClient.java
 package io.github.chitchat;
 
 import java.io.BufferedReader;
