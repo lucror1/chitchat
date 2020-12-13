@@ -1,10 +1,3 @@
-/*
-To future me:
-Well, I done goofed up.
-For some reason, all the ByteBufs are getting used up.
-Find some way to reset/duplicat them without eating up ridiculous memory.
-*/
-
 package io.github.chitchat;
 
 import java.nio.charset.Charset;
