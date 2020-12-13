@@ -55,10 +55,13 @@ public class Client {
         }
 
         if (args.length == 2) {
+            Client.username = args[0];
             Client.host = args[1];
         }
 
         if (args.length == 3) {
+            Client.username = args[0];
+            Client.host = args[1];
             try {
                 Client.port = Integer.parseInt(args[2]);
             }
